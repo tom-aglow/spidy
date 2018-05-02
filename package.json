@@ -1,0 +1,22 @@
+{
+  "name": "spider-man-names",
+  "version": "1.0.0",
+  "description": "Get random Spider-man character name",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tom-aglow/spidy.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "Vasilii Goriunov <tom@ohhhh.me> (http://ohhhh.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tom-aglow/spidy/issues"
+  },
+  "homepage": "https://github.com/tom-aglow/spidy#readme"
+}
