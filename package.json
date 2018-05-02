@@ -5,15 +5,14 @@
   "main": "src/index.js",
   "scripts": {
     "lint": "eslint src",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage",
+    "test:watch": "jest --watch --verbose"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tom-aglow/spidy.git"
   },
-  "keywords": [
-    "npm"
-  ],
+  "keywords": ["npm"],
   "author": "Vasilii Goriunov <tom@ohhhh.me> (http://ohhhh.me/)",
   "license": "MIT",
   "bugs": {
@@ -27,6 +26,10 @@
     "eslint": "4.19.1",
     "eslint-config-airbnb-base": "12.1.0",
     "eslint-plugin-import": "2.11.0",
+    "jest": "22.4.3",
     "prettier": "1.12.1"
+  },
+  "jest": {
+    "collectCoverageFrom": ["**/*.{js}", "!**/node_modules/**", "!coverage/**", "!dist/**"]
   }
 }
