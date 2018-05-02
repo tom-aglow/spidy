@@ -30,6 +30,14 @@
     "prettier": "1.12.1"
   },
   "jest": {
-    "collectCoverageFrom": ["**/*.{js}", "!**/node_modules/**", "!coverage/**", "!dist/**"]
+    "collectCoverageFrom": ["src/**.js"],
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      }
+    }
   }
 }
