@@ -4,13 +4,16 @@
   "description": "Get random Spider-man character name",
   "main": "src/index.js",
   "scripts": {
+    "lint": "eslint src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tom-aglow/spidy.git"
   },
-  "keywords": ["npm"],
+  "keywords": [
+    "npm"
+  ],
   "author": "Vasilii Goriunov <tom@ohhhh.me> (http://ohhhh.me/)",
   "license": "MIT",
   "bugs": {
@@ -19,5 +22,11 @@
   "homepage": "https://github.com/tom-aglow/spidy#readme",
   "dependencies": {
     "unique-random-array": "1.0.1"
+  },
+  "devDependencies": {
+    "eslint": "4.19.1",
+    "eslint-config-airbnb-base": "12.1.0",
+    "eslint-plugin-import": "2.11.0",
+    "prettier": "1.12.1"
   }
 }
