@@ -1,7 +1,5 @@
-const uniqueRandomArray = require('unique-random-array')
-const spiderManNames = require('./spider-man-names.json')
+import uniqueRandomArray from 'unique-random-array'
+import spiderManNames from './spider-man-names.json'
 
-module.exports = {
-  all: spiderManNames,
-  random: uniqueRandomArray(spiderManNames),
-}
+export const all = spiderManNames
+export const random = uniqueRandomArray(spiderManNames)

@@ -1,4 +1,4 @@
-const spiderManNames = require('.')
+import * as spiderManNames from '.'
 
 describe('spiderManNames module', () => {
   it('has a list of all available names', () => {

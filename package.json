@@ -2,12 +2,14 @@
   "name": "spider-man-names",
   "version": "1.0.0",
   "description": "Get random Spider-man character name",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "babel --copy-files --out-dir dist --ignore *.spec.js src",
     "lint": "eslint src",
     "test": "jest --coverage",
     "test:watch": "jest --watch --verbose",
-    "validate": "npm-run-all --parallel lint test"
+    "validate": "npm-run-all --parallel lint test build"
   },
   "repository": {
     "type": "git",
@@ -24,16 +26,19 @@
     "unique-random-array": "1.0.1"
   },
   "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-preset-env": "1.6.1",
     "eslint": "4.19.1",
     "eslint-config-airbnb-base": "12.1.0",
     "eslint-plugin-import": "2.11.0",
     "ghooks": "2.0.4",
     "jest": "22.4.3",
     "npm-run-all": "4.1.2",
-    "prettier": "1.12.1"
+    "prettier": "1.12.1",
+    "rimraf": "2.6.2"
   },
   "jest": {
-    "collectCoverageFrom": ["src/**.js"],
+    "collectCoverageFrom": ["<rootDir>/src/**.js"],
     "coverageThreshold": {
       "global": {
         "branches": 100,
