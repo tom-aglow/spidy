@@ -13,7 +13,7 @@
     "lint": "eslint src",
     "test": "jest --coverage",
     "test:watch": "jest --watch --verbose",
-    "release": "semantic-release pre && npm publish && semantic-release post",
+    "release": "semantic-release",
     "validate": "npm-run-all --parallel lint test build"
   },
   "repository": {
