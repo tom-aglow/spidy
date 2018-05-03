@@ -9,5 +9,9 @@ branches:
     - master
 notifications:
   email: false
+before_script:
+  - yarn global add codecov
 script:
   - yarn validate
+after_success:
+  - codecov
