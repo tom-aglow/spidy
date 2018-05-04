@@ -48,10 +48,14 @@ console.log(spiderManNames.random()) // Lizard
 
 ## API
 
-| Method | Result type | Result description      |
-| ------ | ----------- | ----------------------- |
-| all    | array       | all character's names   |
-| random | string      | random character's name |
+| Method   | Result type | Result description      |
+| -------- | ----------- | ----------------------- |
+| all      | array       | all character's names   |
+| random() | string      | random character's name |
+
+## example
+
+JS Bin [playground](http://jsbin.com/pifuqicetu/edit?html,js,console)
 
 ## license
 
