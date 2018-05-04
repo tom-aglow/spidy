@@ -10,6 +10,8 @@ list of some spider-man characters names
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/tom-aglow/spidy/blob/master/LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
 
+![neon spider-man](https://media.giphy.com/media/nR4f2N4SOARyM/giphy.gif)
+
 ## the problem
 
 make your unit tests more interesting with cool names of spider-man comic characters instead of well-known guy `'John Doe'`
