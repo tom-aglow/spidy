@@ -57,6 +57,10 @@ console.log(spiderManNames.random()) // Lizard
 
 JS Bin [playground](http://jsbin.com/pifuqicetu/edit?html,js,console)
 
+## thanks
+
+thanks to @kentcdodds for his awesome [workshop](https://frontendmasters.com/courses/open-source/)
+
 ## license
 
 MIT © [ohhhh.me](http://ohhhh.me)
